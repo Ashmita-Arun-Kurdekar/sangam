@@ -1,0 +1,57 @@
+.dashboard {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+}
+
+.dashboard h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.dashboard-section {
+  margin-bottom: 2rem;
+}
+
+.dashboard-section h3 {
+  margin-bottom: 0.75rem;
+  color: #1e90ff;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.4rem;
+}
+
+.dashboard-section p {
+  margin: 0.4rem 0;
+}
+
+.skills {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.skills ul {
+  list-style: disc inside;
+  padding: 0;
+}
+
+.sessions table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sessions th, .sessions td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.sessions th {
+  background-color: #f3f3f3;
+  color: #333;
+}

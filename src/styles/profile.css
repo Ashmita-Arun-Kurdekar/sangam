@@ -1,0 +1,82 @@
+.profile-container {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f0f4f8;
+  min-height: 100vh;
+}
+
+.profile-card {
+  background: white;
+  display: flex;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.profile-sidebar {
+  background: #0d47a1;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+}
+
+.profile-avatar {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 1rem;
+}
+
+.profile-name {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 1.4rem;
+}
+
+.profile-role {
+  font-size: 0.95rem;
+  opacity: 0.8;
+}
+
+.profile-content {
+  padding: 2rem;
+  flex: 1;
+}
+
+.profile-section {
+  margin-bottom: 2rem;
+  color:black;
+}
+
+.profile-section h3 {
+  color: #0d47a1;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.profile-section p {
+  margin: 0.4rem 0;
+  color: #333;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skills-list li {
+  background-color: #e3f2fd;
+  color: #0d47a1;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: 500;
+}

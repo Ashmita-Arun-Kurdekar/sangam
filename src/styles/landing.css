@@ -1,0 +1,55 @@
+.landing-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out forwards;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.landing-logo {
+  width: 130px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  animation: fadeInScale 2s ease-in-out forwards;
+}
+
+.landing-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0.05em;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+}
+
+.landing-subtitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0;
+  opacity: 0.85;
+  font-style: italic;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
