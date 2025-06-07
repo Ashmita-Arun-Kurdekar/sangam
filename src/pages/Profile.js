@@ -11,7 +11,7 @@ function Profile() {
             alt="User Avatar"
             className="profile-avatar"
           />
-          <h2 className="profile-name">Jane Doe</h2>
+          <h2 className="profile-name">Priya Khanna</h2>
           <p className="profile-role">Frontend Developer</p>
         </div>
 
@@ -27,7 +27,7 @@ function Profile() {
 
           <section className="profile-section">
             <h3>Contact Information</h3>
-            <p><strong>Email:</strong> janedoe@example.com</p>
+            <p><strong>Email:</strong> priyakhanna123@example.com</p>
             <p><strong>Phone:</strong> +91 9876543210</p>
             <p><strong>Location:</strong> Bengaluru, India</p>
           </section>

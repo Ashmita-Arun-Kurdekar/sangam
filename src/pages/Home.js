@@ -55,7 +55,7 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <h1>Welcome to SkillSwap</h1>
+      <h1>Welcome to SkillX</h1>
       <p>Discover and exchange skills with peers!</p>
 
       <div className="carousel-multi">

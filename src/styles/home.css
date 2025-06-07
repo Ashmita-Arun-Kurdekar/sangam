@@ -3,21 +3,27 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  margin: 2rem 0;
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 1400px; /* Adjust based on your design */
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
 .carousel-multi-wrapper {
   display: flex;
   gap: 1.5rem;
-  width: 1080px; /* 3 cards * 360px each + gaps */
+  flex-wrap: nowrap;
   overflow: hidden;
+  width: 100%;
 }
 
 .carousel-card {
   background: linear-gradient(135deg, #e0f2ff, #ffffff);
   border-radius: 15px;
   padding: 1.5rem 2rem;
-  width: 340px;
+  width: 100%;
+  max-width: 400px; /* wider cards */
   box-shadow: 0 6px 15px rgba(30, 144, 255, 0.2);
   flex-shrink: 0;
   text-align: center;

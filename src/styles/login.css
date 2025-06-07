@@ -1,4 +1,3 @@
-/* login.css */
 .login-container {
   max-width: 400px;
   margin: 3rem auto;
@@ -6,12 +5,14 @@
   background-color: #e3f2fd;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  color: black; /* Ensures all text inside is black by default */
 }
 
 .login-form label {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: 600;
+  color: black; /* Explicit label color */
 }
 
 .login-form input {
@@ -20,6 +21,8 @@
   margin-bottom: 1rem;
   border: 1px solid #90caf9;
   border-radius: 4px;
+  color: black; /* Input text color */
+  background-color: white;
 }
 
 .login-btn {
@@ -36,4 +39,15 @@
 
 .login-btn:hover {
   background-color: #1565c0;
+}
+
+.login-form select {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #2196f3;
+  border-radius: 6px;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
 }

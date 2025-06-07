@@ -6,12 +6,12 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <div className="logo">SkillSwap</div>
+        <div className="logo">SkillX</div>
         <ul className="nav-links">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/login">Login</Link></li>
           <li><Link to="/register">Register</Link></li>
-          <li><Link to="/dashboard">Dashboard</Link></li>
+          <li><Link to="/marketplace">Marketplace</Link></li>
           <li><Link to="/profile">Profile</Link></li>
         </ul>
       </div>

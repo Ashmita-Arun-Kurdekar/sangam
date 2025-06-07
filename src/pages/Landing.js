@@ -16,7 +16,7 @@ function Landing() {
   return (
     <main className="landing-page" role="main" aria-label="Landing page welcome screen">
       <img src="/logo.jpg" alt="SkillSwap Logo" className="landing-logo" />
-      <h1 className="landing-title">Welcome to SkillSwap</h1>
+      <h1 className="landing-title">Welcome to SkillX</h1>
       <p className="landing-subtitle">Connecting learners through skills</p>
     </main>
   );
